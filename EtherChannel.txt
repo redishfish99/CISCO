@@ -1,0 +1,16 @@
+int range
+channel-group 1 mode active | passive
+switchport mode trunk | monitor
+encapsulation
+
+enable secret
+enable password
+
+
+line vty 0
+line con 0
+password
+login
+transport-input
+
+

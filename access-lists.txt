@@ -1,0 +1,31 @@
+STANDARD
+
+access-list # permit|deny ip|host|any  wc
+
+
+
+
+
+
+EXTENDED
+
+access-list # deny|permit ip ipaddress wc any eq|range www
+			      FROM        TO
+
+
+
+
+
+ASSIGNING 
+int
+ip access-group # in|out
+
+
+FROM ------- TO (OUTBOUND)
+TO -------- FROM (INBOUND)
+
+
+
+
+
+

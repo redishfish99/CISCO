@@ -1,0 +1,12 @@
+en
+conf t
+ip dhcp pool pool1
+default-router
+network
+dns-server
+
+int
+ip address default-router sub
+no shut
+
+int ip address dhcp

@@ -1,0 +1,22 @@
+show spanning-tree
+
+
+spanning-tree mode pvst|rvst|mst
+spanning-tree vlan [1-4094'increments of'] root primary
+
+spanning-tree vlan [1-4094] cost [1-200000000]
+shortrange longrange (look at chart for costs)
+
+spanning-tree vlan [1-4094] priority [0-61440]
+spanning-tree portfast|uplinkfast 
+portfast (blocking) uplinkfast (speeds up choice for new root port)
+
+duplex full|half
+
+
+
+
+EXAMPLES:
+
+spanning-tree vlan 1 root primary
+spanning-tree vlan 1 priority [0-61440]

@@ -1,0 +1,56 @@
+https://www.thegeekstuff.com/2013/08/enable-ssh-cisco
+ssh w rsa keys
+
+
+
+https://www.cisco.com/c/en/us/td/docs/ios/12_2/security/configuration/guide/fsecur_c/scfpass.html
+priv
+
+
+https://www.cisco.com/c/en/us/td/docs/ios/12_2/interface/configuration/guide/finter_c/icfusing.html
+basic cmd
+
+
+https://www.dummies.com/programming/networking/cisco/cisco-router-passwords-enable-and-secret/
+pass and secret
+
+
+
+https://community.cisco.com/t5/routing/how-to-shut-vty-5-15/td-p/894152
+no login == just login
+
+
+
+
+https://learningnetwork.cisco.com/thread/55719
+
+passwords for line and vty
+
+
+
+https://www.cisco.com/c/en/us/support/docs/ios-nx-os-software/ios-software-releases-110/45843-configpasswords.html
+
+https://www.cisco.com/c/en/us/td/docs/switches/wan/mgx/mgx_8850/software/mgx_r3/rpm/rpm_r1-1/configuration/guide/appc.html
+
+
+https://www.cisco.com/c/en/us/td/docs/security/asa/asa90/configuration/guide/asa_90_cli_config/basic_hostname_pw.html
+hostname
+
+
+https://www.cisco.com/E-Learning/bulk/public/tac/cim/cib/using_cisco_ios_software/07_basic_commands_tasks.htm
+show commands
+
+
+
+https://www.cisco.com/c/en/us/td/docs/ios/fundamentals/command/reference/cf_book/cf_s4.html
+
+
+
+https://www.cisco.com/c/en/us/td/docs/routers/nfvis/switch_command/b-nfvis-switch-command-reference/ip_route_commands.pdf	
+static routes
+
+https://www.techrepublic.com/article/how-to-configure-basic-ospf/
+ospf
+
+
+

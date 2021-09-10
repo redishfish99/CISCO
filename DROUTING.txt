@@ -1,0 +1,10 @@
+router eigrp 5
+network NETWORK WC
+
+
+router ospf 100
+network NETWORK WC area 0 ---------- unless multi-area ospf for better performance
+
+
+router rip
+network NETWORK WC

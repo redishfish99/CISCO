@@ -1,0 +1,6 @@
+int
+ip flow ingress
+ip flow egress
+ip flow-export DESTINATIONIP
+ip flow-source int
+ip flow-export version 1-5-9

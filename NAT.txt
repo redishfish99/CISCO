@@ -1,0 +1,35 @@
+DYNAMIC
+access-list # permit NETWORK WC 
+
+ip nat pool my_addrs PUBLIC ADDRESSES netmask PUBLIC NETMASK
+ip nat inside source list # pool my_addrs overload
+
+ip nat inside | outside
+(OUTSIDE FOR WAN FACING)
+-----------------------------------------------------------
+
+
+
+inside local - the private ip
+inside global - public that private is swapped for
+outside global - public destination
+outside local - desination local ip
+-----------------------------------------------------------
+
+STATIC (INBOUND MAPPING FOR SERVERS)
+
+int 
+ip nat inside
+int
+ip nat outside
+
+ip nat inside source static LOCALHOST PUBLICIP
+
+-----------------------------------------------------------
+
+PAT
+
+ip access-list # permit | deny  ip|host|any NETWORK WC
+ip nat inside source list # int WANFACING overload
+
+(DO I NEED TO ASSIGN PUBLIC IP TO **S/O/O/O)

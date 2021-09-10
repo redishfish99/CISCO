@@ -1,0 +1,12 @@
+en
+conf t
+ip route network sub hop					ip route 10.0.0.0 255.0.0.0 172.17.12.98
+													  NETWORK   SUBET      NEXT HOP
+
+ip route 0.0.0.0 ISPaddress
+exit
+copy run start
+
+
+ip default-network
+ip default-gateway   (if routing is disabled)

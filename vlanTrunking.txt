@@ -1,0 +1,64 @@
+vlan 10
+name Accounting
+int range fa0/1-7
+switchport mode trunk
+switchport trunk encaps
+switchport trunk native vlan #
+switchport trunk allowed vlan #
+copy run start
+
+
+
+int fa #
+switchport mode access 
+switchport access vlan 1
+int vlan 1  ---- set to default router if desired network
+ip address 1.1.1.1 255.255.255.0 or dhcp
+
+with dhcp pool
+
+
+int vlan 10
+ip address default-router subnet
+
+
+no swithcport access | trunk
+no vlan (delete vlan)
+show vlan id
+show vlan
+show vlan brief
+
+
+switchport voice vlan # (vlan for voip traffic)
+
+
+
+
+
+
+
+
+
+
+
+
+en
+conf t 
+int range fa 0/1, fa 0/2 - 3 , gi0/1 - 2
+switchport mode trunk
+switchport trunk native vlan # (do this on both interfaces)
+no switchport access vlan
+int range
+switchport mode access  (disable trunking)
+copy run start
+
+
+switchport trunk enapsulation dot1q (isl or nonegotiate)
+
+show int trunk
+show int fa 0/1 trunk
+
+
+
+
+
